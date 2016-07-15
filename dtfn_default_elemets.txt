@@ -1,0 +1,31 @@
+<div class="container">
+<span class="fnote">1</span>
+</div>
+
+
+<div class="CSSBUB">
+	<div class="fnoteTXT"></div>
+</div>
+
+<div class="bubltxt bbl1"></div>
+<div class="bubltxt bbl2"><a href="" target="_blank" class="bubllink">links</a></div>
+<div class="bubltxt bbl3"></div>
+
+
+
+fnote		dtfn_footnote
+
+CSSBUB		dtfn_bubble
+
+fnoteTXT	dtfn_bubblecontent
+
+bubltxt		dtfn_notecontent
+bbl1		dtfn_note_1
+
+bubllink	dtfn_notelink
+
+
+
+<span class="dtfn_footnote">x</span>
+<div class="dtfn_notecontent dtfn_note_1"><a href="" class="dtfn_notelink"></a></div>
+<div class="dtfn_bubble"><div class="dtfn_bubblecontent"></div></div>
