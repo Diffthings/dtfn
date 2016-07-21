@@ -33,6 +33,7 @@ Within that div, you can add all kinds of html, including links, pictures, etc. 
 <br/>
 <br/>
 ##Preconditions:
+
 - Add the css to the head:
 ```html
 <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/443195/dtfn_css.css" />
@@ -51,6 +52,7 @@ Within that div, you can add all kinds of html, including links, pictures, etc. 
 ```
 Add the dummy-div somewhere in the body of your page (e.g. at the end...).
 
+If you don't already have, add jQuery cause it's needed here...
 
 
 <br/>
