@@ -40,12 +40,12 @@ Add a the following span to your html whereever you want to add a note. Give it 
 ```
 
 
-To add the content to the bubble (i.e. the actual note) add a div with two classnames, like so:
+To add the content to the bubble (i.e. the actual note) add a div with two classnames somewhere on your page, like so:
 
 ```html
 	<div class="dtfn_notecontent dtfn_note_1">Put note content here</div>
 ```
-_(whereas the integer at the end of **dtfn_note_** represents the note-number)_
+The integer at the end of **dtfn_note_** represents the note-number..
 
 Within that div, you can add all kinds of html, including links, pictures, etc. 
 
