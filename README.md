@@ -1,13 +1,14 @@
 # dtfn - diffthings footnotes
 Some footnote-speech-bubble thing for your website.
 
-![screenshot](https://github.com/Diffthings/dtfn/blob/master/Pic.png "a screenshot")
+![screenshot](https://raw.githubusercontent.com/Diffthings/dtfn/master/example%20files/screenshot.png "a screenshot")
 
 _(this is what's called a screenshot...)_
 
 
 
-
+<br/>
+<br/>
 ##Preconditions:
 - Add the css to the head:
 ```html
@@ -32,9 +33,10 @@ Add the dummy-div somewhere in the body of your page (e.g. at the end...).
 
 
 
-
+<br/>
+<br/>
 ##How to add notes:
-Add a the following span to your html whereever you want to add a note. Give it a number (must be a positive integer):
+Add the following span to your html whereever you want to add a note. Give it a number (must be a positive integer):
 ```html
 	<span class="dtfn_footnote">1</span>
 ```
@@ -45,11 +47,12 @@ To add the content to the bubble (i.e. the actual note) add a div with two class
 ```html
 	<div class="dtfn_notecontent dtfn_note_1">Put note content here</div>
 ```
-The integer at the end of **dtfn_note_** represents the note-number..
+The integer at the end of **dtfn_note_** represents the note-number...
 
 Within that div, you can add all kinds of html, including links, pictures, etc. 
 
 
-
+<br/>
+<br/>
 ##Live Example
 Check out eigther the example file above (dtfn_example.html) or the one on [codepen](http://codepen.io/diffthings/pen/EyodQY).
