@@ -1,9 +1,13 @@
 # dtfn - diffthings footnotes
 Some footnote-speech-bubble thing for your website.
+![Demo Image](https://octodex.github.com/images/yaktocat.png)
+
+
+
 
 
 ##Example
-Check out eigther the example file above() or the one on [codepen](http://codepen.io/diffthings/pen/EyodQY).
+Check out eigther the example file above (dtfn_example.html) or the one on [codepen](http://codepen.io/diffthings/pen/EyodQY).
 
 
 
