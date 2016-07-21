@@ -1,8 +1,9 @@
 # dtfn - diffthings footnotes
 Some footnote-speech-bubble thing for your website.
 
-![Demo Image](https://github.com/Diffthings/dtfn/blob/master/Pic.png?raw=true)
-_(Screenshot...)_
+![screenshot](https://github.com/Diffthings/dtfn/blob/master/Pic.png "a screenshot")
+
+_(this is what's called a screenshot...)_
 
 
 
@@ -18,15 +19,14 @@ _(Screenshot...)_
 	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/443195/dtfn_js.js" type="text/javascript"></script>
 ```
 
-- Also needed: a kind of "dummy-div" that represents the actual bubble appearing on the page. 
-Whithin the bubble the actual content is represented by another dummy-div:
+- Also needed: Two "dummy-divs" that represents the actual bubble appearing on the page.
 ```html
 	<div class="dtfn_bubble">
 		<div class="dtfn_bubblecontent"></div>
 	</div>
 ```
 
-Add the dummy-div somewhere in the body of your page (e.g. the end...).
+Add the dummy-div somewhere in the body of your page (e.g. at the end...).
 
 
 
