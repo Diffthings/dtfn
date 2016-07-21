@@ -14,10 +14,12 @@ _(this is what's called a screenshot...)_
 	<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/443195/dtfn_css.css" />
 ```
 
+
 - Add the JS to the end of the body:
 ```html
 	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/443195/dtfn_js.js" type="text/javascript"></script>
 ```
+
 
 - Also needed: Two "dummy-divs" that represent the actual bubble appearing on the page.
 ```html
@@ -30,6 +32,7 @@ Add the dummy-div somewhere in the body of your page (e.g. at the end...).
 
 
 
+
 ##How to add notes:
 Add a the following span to your html whereever you want to add a note. Give it a number (must be a positive integer):
 ```html
@@ -38,10 +41,12 @@ Add a the following span to your html whereever you want to add a note. Give it 
 
 
 To add the content to the bubble (i.e. the actual note) add a div with two classnames, like so:
-(whereas the integer at the end of **dtfn_note_** represents the note-number)
+
 ```html
-	<div class="dtfn_notecontent dtfn_note_1">Note content</div>
+	<div class="dtfn_notecontent dtfn_note_1">Put note content here</div>
 ```
+_(whereas the integer at the end of **dtfn_note_** represents the note-number)_
+
 Within that div, you can add all kinds of html, including links, pictures, etc. 
 
 
