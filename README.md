@@ -19,7 +19,7 @@ _(this is what's called a screenshot...)_
 	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/443195/dtfn_js.js" type="text/javascript"></script>
 ```
 
-- Also needed: Two "dummy-divs" that represents the actual bubble appearing on the page.
+- Also needed: Two "dummy-divs" that represent the actual bubble appearing on the page.
 ```html
 	<div class="dtfn_bubble">
 		<div class="dtfn_bubblecontent"></div>
