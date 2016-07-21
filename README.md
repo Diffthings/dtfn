@@ -1,7 +1,6 @@
 # dtfn - diffthings footnotes
 Some footnote-speech-bubble thing for your website.
-![Demo Image](https://octodex.github.com/images/yaktocat.png)
-
+![Demo Image](https://github.com/Diffthings/dtfn/blob/master/Pic.png?raw=true)
 
 
 
