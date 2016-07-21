@@ -49,8 +49,10 @@ To add the content to the bubble (i.e. the actual note) add a div with two class
 ```
 The integer at the end of **dtfn_note_** represents the note-number...
 
-Within that div, you can add all kinds of html, including links, pictures, etc. 
-
+Within that div, you can add all kinds of html, including links, pictures, etc. For links you can (optionally) use the dtfn link class like so:
+```html
+<a href="" class="dtfn_notelink">a link</a>
+```
 
 <br/>
 <br/>
